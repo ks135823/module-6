@@ -1,0 +1,81 @@
+<style>
+div.container {
+position: relative;
+}
+
+header, footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+.sidenav {
+  height:100%;
+  width:160px;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  display: block;
+  color: #818181;
+  padding:6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.main {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+.fix {
+  max-width: 99%;
+  max-height: 99%;
+}
+img {
+  border-color: red;
+  border-style: solid;
+}
+.fit {
+  max-width: 99%;
+  max-height: 99%;
+}
+#map {
+  height:100%
+}
+
+@@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a{font-size: 18px;}
+}
+article {
+  margin-left: 170px;
+  border-left: 1px sold gray;
+  padding: 1em;
+  overflow: hidden;
+}
+}
+#header-image {
+  float: right;
+  margin-right: 4%;
+  padding-top: 30px;
+  width: 46%;
+}
+#header-content {
+  float: left;
+  margin-leftL: 4%;
+  padding: 40px 0;
+  width: 46%;
+}
+#header-content .wrapper {
+  width: auto;
+}
+</style>
